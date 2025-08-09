@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.9">
+  <diagram id="KmFbVbKfDujM0yNGSjCX" name="Page-3">
+    <mxGraphModel dx="1773" dy="2223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-39" value="Start" style="shape=ellipse;fillColor=#CFE2F3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="60" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-40" value="Read current time from RTC" style="shape=parallelogram;fillColor=#D9EAD3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-83" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-41" target="TKf0IS6KrfO6O8k2DfY7-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="370" />
+              <mxPoint x="690" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-41" value="Time matches feeding schedule?" style="shape=rhombus;fillColor=#F4CCCC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-42" value="Read container level" style="shape=parallelogram;fillColor=#D9EAD3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="60" y="510" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-86" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-43" target="TKf0IS6KrfO6O8k2DfY7-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-43" value="Food enough for this time feeding?" style="shape=rhombus;fillColor=#F4CCCC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="620" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-44" target="TKf0IS6KrfO6O8k2DfY7-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="900" />
+              <mxPoint x="-130" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-44" value="Send alert: &#39;Food bin empty&#39;" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="840" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-45" value="Read bowl weight (before)" style="shape=parallelogram;fillColor=#D9EAD3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="330" y="800" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-46" value="Activate servo motor to dispense food" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="920" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-47" value="Pause briefly (settle food)" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1040" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-48" value="Read bowl weight (after dispense)" style="shape=parallelogram;fillColor=#D9EAD3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1150" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-49" value="Weight increase OK?" style="shape=rhombus;fillColor=#F4CCCC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1240" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-50" target="TKf0IS6KrfO6O8k2DfY7-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="1300" />
+              <mxPoint x="-30" y="1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-50" value="Send alert: &#39;No food dispensed&#39;" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1240" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-51" value="Wait feeding period (10 min)" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1340" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-52" value="Read bowl weight (after eating)" style="shape=parallelogram;fillColor=#D9EAD3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1430" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-90" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-53" target="TKf0IS6KrfO6O8k2DfY7-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-53" value="Pet ate food?" style="shape=rhombus;fillColor=#F4CCCC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1530" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-54" value="Log successful feeding" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1650" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-55" value="Send alert: &#39;Pet did not eat&#39;" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry y="1650" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-56" value="Reset for next feeding time" style="shape=rectangle;fillColor=#FFF2CC;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1750" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-57" target="TKf0IS6KrfO6O8k2DfY7-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1950" />
+              <mxPoint x="760" y="1950" />
+              <mxPoint x="760" y="180" />
+              <mxPoint x="400" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-57" value="Return to next loop (back)" style="shape=ellipse;fillColor=#CFE2F3;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1870" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-58" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-39" target="TKf0IS6KrfO6O8k2DfY7-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-59" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-40" target="TKf0IS6KrfO6O8k2DfY7-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-60" value="Yes" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-41" target="TKf0IS6KrfO6O8k2DfY7-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-62" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-42" target="TKf0IS6KrfO6O8k2DfY7-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-66" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-45" target="TKf0IS6KrfO6O8k2DfY7-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-67" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-46" target="TKf0IS6KrfO6O8k2DfY7-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-68" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-47" target="TKf0IS6KrfO6O8k2DfY7-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-69" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-48" target="TKf0IS6KrfO6O8k2DfY7-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-70" value="No" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-49" target="TKf0IS6KrfO6O8k2DfY7-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-72" value="Yes" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-49" target="TKf0IS6KrfO6O8k2DfY7-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-73" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-51" target="TKf0IS6KrfO6O8k2DfY7-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-74" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-52" target="TKf0IS6KrfO6O8k2DfY7-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-76" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-54" target="TKf0IS6KrfO6O8k2DfY7-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-77" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-56" target="TKf0IS6KrfO6O8k2DfY7-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-79" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-55" target="TKf0IS6KrfO6O8k2DfY7-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-85" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.473;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-43" target="TKf0IS6KrfO6O8k2DfY7-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TKf0IS6KrfO6O8k2DfY7-89" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.445;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TKf0IS6KrfO6O8k2DfY7-53" target="TKf0IS6KrfO6O8k2DfY7-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
